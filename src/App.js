@@ -20,6 +20,9 @@ const App = () => {
   const handleCardClosee = () => {
     setCurrentCardd(currentCardd + 1);
   };
+  const handleCardClosees = () => {
+    Akhir(Akhir + 1);
+  };
 
   const tdkJujur = () => {
     alert("EH Harus Jujur Jawabnya Sayanggggg!!!!🗿🗿🗿🗿");
@@ -182,7 +185,8 @@ const App = () => {
                               {Awal === 1 && (
                                 <div>
                                   <h3>
-                                    Iyah Sayang Aku Sayang Kamu Banget Juga😍
+                                    Iyah Sayang Aku Sayang Kamu Banget Juga,
+                                    Bayar Pake Pap Sayang😍
                                   </h3>
                                   <button className="button" onClick={openWa}>
                                     Kirim Pap ❤️
